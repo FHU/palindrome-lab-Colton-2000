@@ -13,6 +13,6 @@ def palindrome(word):
 
 #YOUR CODE GOES HERE
 word = input()
-print(palindrome(word))
+palindrome(word)
 
 #comment to resubmit
