@@ -3,12 +3,13 @@ def palindrome(word):
     word = word.replace(' ','')
     word = word.lower()
     flip = word[::-1]
-    if word.isalpha() == False:
-        return False
     if word == flip:
-        return True
+        palindrome = True
+    elif word.isalpha() == False:
+        palindrome = False
     else:
-        return False
+        palindrome = False
+    return palindrome
 
 #YOUR CODE GOES HERE
 word = input()
