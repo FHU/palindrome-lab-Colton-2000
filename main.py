@@ -12,3 +12,5 @@ def palindrome(word):
 
 #YOUR CODE GOES HERE
 palindrome(input())
+
+#comment to resubmit
