@@ -11,6 +11,6 @@ def palindrome(word):
         return False
 
 #YOUR CODE GOES HERE
-palindrome(input())
+print(palindrome(input()))
 
 #comment to resubmit
