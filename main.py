@@ -11,5 +11,4 @@ def palindrome(word):
         return word == flip
 
 #YOUR CODE GOES HERE
-word = input()
-palindrome(word)
+palindrome(input())
