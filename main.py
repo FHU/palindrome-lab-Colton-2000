@@ -4,12 +4,9 @@ def palindrome(word):
     word = word.lower()
     flip = word[::-1]
     if word.isalpha() == False:
-        palindrome = False
-    elif word == flip:
-        palindrome = True
+        return False
     else:
-        palindrome = False
-    return palindrome
+        return word == flip
 
 #YOUR CODE GOES HERE
 word = input()
